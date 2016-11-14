@@ -1,0 +1,399 @@
+@font-face {
+  font-family: eraser;
+  src: url(font/Eraser.ttf);
+}
+
+@font-face {
+  font-family: bungasi;
+  src: url(font/Bungasai.ttf);
+}
+
+html body *{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  min-width: 1100px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/****************************************************
+**************     NAV   BAR     ********************
+*****************************************************/
+
+header{
+  display: inline-block;
+  color:white;
+}
+
+#img1{
+  position: fixed;
+  top:0px;
+  left:42.5%;
+  width: 15%;
+  z-index: 1;
+}
+
+#head1{
+  padding-top: 60px;
+  position: fixed;
+  left: 0;
+  height: 200px;
+  width: 42.5%;
+  background-image: url(images/orange.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 194px;
+  z-index: 1;
+}
+
+#head2{
+  padding-top: 60px;
+  color:white;
+  position: fixed;
+  right: 0px;
+  height: 200px;
+  width: 42.5%;
+  background-image: url(images/orange.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 194px;
+  z-index: 1;
+}
+
+#bar1{
+  margin: auto;
+  margin-top: 2%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/****************************************************
+**************    MENUS DEROULANT     ****************
+*****************************************************/
+
+
+#ssmenus ul{
+  display: inline-block;
+}
+
+#menus #ssmenus{
+  visibility: hidden;
+}
+
+#menus:hover #ssmenus{
+  visibility: visible;
+}
+
+#ssmenus li a{
+   display:block;
+   width:100px;
+   color:blue;
+   text-decoration:none;
+   padding:5px;
+ }
+
+#ssmenus li a:hover{
+  visibility: visible;
+}
+
+ #ssmenus li a:hover {
+ color:#FFD700;
+ }
+
+.li1{
+  list-style-type: none;
+}
+
+#menus{
+  list-style-type: none;
+  font-size: 180%;
+}
+
+#bar2{
+  margin: auto;
+  margin-top: 2%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.men1{
+  font-size: 180%;
+  list-style-type: none;
+}
+
+a{
+  color: red;
+}
+
+
+/****************************************************
+********************   ACCEUILL  ********************
+*****************************************************/
+
+#back{
+  position: relative;
+  margin-top: 10%;
+  height: 490px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(images/ordi.jpeg);
+
+}
+
+#con1{
+  position: absolute;
+  bottom: 180px;
+}
+
+
+/****************************************************
+****************    PORTFOLIO    ********************
+*****************************************************/
+
+
+#portfolio1{
+  cursor: pointer;
+  position: absolute;
+  left: 70px;
+  top: 70px;
+  height: 100px;
+  width: 280px;
+}
+
+#portfolio1:hover{
+  cursor: pointer;
+  position: absolute;
+  left: 70px;
+  top: 70px;
+  height: 100px;
+  width: 280px;
+}
+
+
+#contact1{
+  cursor: pointer;
+  position: absolute;
+  left: 500px;
+  top: 70px;
+  height: 200px;
+  width: 340px;
+}
+
+#contact1:hover{
+  cursor: pointer;
+  position: absolute;
+  left: 500px;
+  top: 70px;
+  height: 200px;
+  width: 340px;
+}
+
+#about1{
+  cursor: pointer;
+  position: absolute;
+  left: 240px;
+  top: 330px;
+  height: 100px;
+  width: 120px;
+}
+
+#about1:hover{
+  cursor: pointer;
+  position: absolute;
+  left: 240px;
+  top: 330px;
+  height: 100px;
+  width: 120px;
+}
+
+#portfolio{
+  height: 2250px;
+}
+
+h1{
+  font-family: bungasi;
+}
+
+#portfolio h1{
+  padding: 15px;
+  padding-bottom: 25px;
+  text-align: center;
+  color:black;
+  background-color: orange;
+}
+
+#chall1{
+  background-image: url(images/noirorange.jpeg);
+  background-size: 100% 450px;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  border: 4px solid black;
+}
+
+.img2{
+  border: 2px solid red;
+  height: 80% ;
+  width: 200px;
+}
+
+#visage{
+  background-image: url(images/noirorange.jpeg);
+  background-size: 100% 500px;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  border: 4px solid black;
+}
+
+.img3{
+  border: 2px solid red;
+  height: 80% ;
+  width: 40%;
+}
+
+#maquette{
+  background-image: url(images/noirorange.jpeg);
+  background-size: 100% 500px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  border: 4px solid black;
+}
+
+#maquette1{
+  border: 2px solid red;
+  height: 90% ;
+  width: 50%;
+}
+
+#exercices5{
+  background-image: url(images/noirorange.jpeg);
+  background-size: 100% 500px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  border: 4px solid black;
+}
+
+#exo5{
+  border: 2px solid red;
+  height: 80% ;
+  width: 50%;
+}
+
+#about{
+  float: left;
+  margin-top: 200px;
+}
+
+
+/****************************************************
+****************      ABOUT      ********************
+*****************************************************/
+
+
+#apropos{
+  padding: 80px;
+  height:230px;
+  background-image: url(images/tableau.jpeg);
+  background-size: 100% 500px;
+}
+
+#apropos1{
+  padding: 15px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+#moi{
+  padding-bottom: 15px;
+}
+
+#comp{
+  padding-bottom: 10px;
+}
+
+#apropos p{
+  font-family: eraser;
+  font-size: 150%;
+  text-align: center;
+  color:white;
+}
+
+
+/****************************************************
+****************      CONTACT     ********************
+*****************************************************/
+
+
+#contact{
+  padding: 50px;
+  height: 550px;
+  background-image: url(images/science.jpeg);
+  background-size: 100% 400px;
+}
+
+#cont{
+  padding: 15px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: #A43D3D;
+}
+
+#contact p{
+  font-size: 120%;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+/****************************************************
+****************     FORMULAIRE     *****************
+*****************************************************/
+
+
+form{
+  text-align: center;
+  color:white;
+}
+
+
+textarea{
+  height: 80px;
+}
+
+
+/****************************************************
+****************        FIN      ********************
+*****************************************************/
+
+footer{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#fin{
+  padding: 50px;
+  bottom: 0;
+  text-align: center;
+  height: 200px;
+  background-size: 100% 300px;
+  background-image: url(images/geek.jpeg);
+}
